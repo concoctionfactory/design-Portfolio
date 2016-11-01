@@ -1,7 +1,7 @@
 
 [
 	{
-		"folder":"boxplant",
+		"folder":"boxPlant",
 		"thumbnail":"box_plant_2.jpg",
 		"title":"box_plant",
 		"tasks":["concept", "modeling", "rendering"],
@@ -57,7 +57,7 @@
 		"thumbnail":"valiWater_thumb.jpg",
 		"title":"valiwater",
 		"tasks":["modeling", "rendering"],
-		"description":"this is tvaliwater",
+		"description":"this is valiwater",
 		"images":[
 			"valiwater_1.jpg",
 			"valiwater_2.jpg",
