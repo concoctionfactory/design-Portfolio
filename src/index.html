@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-COmpatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/style.css">
+		<link href="http://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+		<title>David's Portfolio</title>
+	</head>
+
+
+	<body>
+
+			<div class="menu-dropdown">
+				<div>
+					<span class ="nav-project clickable">projects</span>
+					<span class="nav-about clickable">about</span>
+				</div>
+				<hr class="main-hr">
+			</div>
+
+			<div class="header-container">
+					<div class="nav-logo">
+							<h1 class="title-super clickable">DGL</h1>
+					</div>
+					<div class="nav">
+						<span class ="nav-project clickable">projects</span>
+						<span class="nav-about clickable">about</span>
+
+					</div>
+					<span class=" menu-icon glyphicon glyphicon-menu-hamburger clickable" aria-hidden="true"></span>
+			</div>
+
+
+		<main>
+			<section class="project-container"id="projects">
+				<div class="title-nav"></div>
+				<div class="body"></div>
+				<div class="footer"></div>
+				<hr class="main-hr">
+			</section>
+			<section class="thumbnail-container" id="thumbnails"></section>
+			<section class="about-container" id="about">
+				<div class= "about">
+					<h2>about</h2>
+					<p>Hi my name is David Lee. I studied digital media in Polytechic University. What is digital media you say? It’s quite the broad range of things 3d, game design, programming and photography and other bits and bobs. Once out of school I kind of gravitated towards 3d roles, regardless of how limited the 3d role was or it’s intend purpose. But it gave me exposure to many things and many fields. As many with freelance roles you are required to learn things, new things, new programs, and fast. Somewhere along the way I realized I enjoy learning. And I started branching out. I did part time a graphic design school and got a job at small design studio, I got to try a bunch of things and learned a bunch. And I’m continuing my learning endeavor with front end web. My passion for learning has given me a multi- faceted skill set and a varied experience. I will continue to hone my skills set, and learn and share my knowledge with others.
+</p>
+					<hr>
+				</div>
+
+				<div class= "contact-container">
+					<h2>contact</h2>
+					<p>concoctionfactory@gmail.com</p>
+				</div>
+
+			</section>
+		</main>
+
+
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.3.3/backbone-min.js"></script>
+
+		<script id="projectTemplate" type="text/html">
+				<img data-url=<%=url%> src=<%= "images/"+folder+"/"+thumbnail %>>
+		</script>
+
+		<script id="showProjectTemplate" type ="text/html">
+			<div>
+				<h2 class="title"><%= title%><hr></h2>
+				<% for(var image in images) { %>
+					<img class="image"src=<%= "images/"+folder+"/"+images[image] %>>
+				<% } %>
+				<% if (typeof(tasks) !== "undefined") { %>
+					<div class="task">
+						<% for(var task in tasks) { %>
+							<span><%=tasks[task]%></span>
+						<%}%>
+					</div>
+				<% } %>
+				<% if (typeof(description) !== "undefined") { %>
+					<h3 class="description"><%=description%></h3>
+				<% } %>
+			</div>
+		</script>
+
+		<script id="prevNextTemplate" type ="text/html">
+			<div class="prev-next">
+				<span class="prev clickable">prev</span>
+				<span>|</span>
+				<span class="next clickable">next</span>
+			</div>
+		</script>
+
+		<script src="js/app.js"></script>
+
+
+	</body>
+</html>
