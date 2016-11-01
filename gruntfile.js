@@ -54,7 +54,7 @@ module.exports = function(grunt) {
 			main: {
 				files: [
 					// includes files within path and its sub-directories
-					{expand: true,  cwd: 'src/images/', src: ['**'], dest: 'dist/images'},
+					//{expand: true,  cwd: 'src/images/', src: ['**'], dest: 'dist/images'},
 					{expand: true,  cwd: 'src/json/', src: ['**'], dest: 'dist/json'},
 				],
 			}
@@ -92,10 +92,10 @@ module.exports = function(grunt) {
 grunt.loadNpmTasks('grunt-newer');
 
 	grunt.registerTask('default', [
-		 'jshint',
+		//'jshint',
 		//'removelogging'
 		//'concat',
-		//'copy',
+		'copy',
 		// 'htmlmin',
 		// 'cssmin',
 		//'uglify',
