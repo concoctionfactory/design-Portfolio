@@ -95,11 +95,11 @@ grunt.loadNpmTasks('grunt-newer');
 		//'jshint',
 		//'removelogging'
 		//'concat',
-		'copy',
+		//'copy',
 		// 'htmlmin',
 		// 'cssmin',
 		//'uglify',
-		//'imagemin'
+		'imagemin'
 	]);
 
 	grunt.registerTask('image', [
