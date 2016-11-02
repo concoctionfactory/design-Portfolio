@@ -17,7 +17,7 @@
 		"thumbnail":"sleepy_1.jpg",
 		"title":"sleepy",
 		"tasks":["concept", "modeling", "rendering"],
-		"description":"this is sleep",
+		"description":"this is sleepy",
 		"images":[
 			"sleepy_1.jpg",
 			"sleepy_2.jpg",
@@ -54,7 +54,7 @@
 	},
 	{
 		"folder":"valiwater",
-		"thumbnail":"valiWater_thumb.jpg",
+		"thumbnail":"valiwater_thumb.jpg",
 		"title":"valiwater",
 		"tasks":["modeling", "rendering"],
 		"description":"this is valiwater",
