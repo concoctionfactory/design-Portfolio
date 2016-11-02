@@ -44,6 +44,9 @@ body {
 }
 
 
+.footer{
+	margin: 30px;
+}
 
 .thumbnail-container{
 	display: flex;
@@ -82,6 +85,10 @@ hr{
 	align-self: flex-end;
 }
 
+.prev-next span:first-child,
+.prev-next span:last-child{
+	padding: 20px 10px;
+}
 .title-nav hr{
 	margin: 40px -20px;
 }
@@ -114,8 +121,8 @@ hr{
 }
 
 .project-container .footer .task {
-	margin-top: -20px;
-	margin-bottom: 50px;
+	margin-top: 20px;
+
 }
 
 .project-container .footer .task span{
@@ -158,7 +165,8 @@ hr{
 }
 
 .menu-icon{
-	margin: 10px;
+	padding: 10px;
+	padding: 20px 10px 20px 20px;
 	display: none;
 }
 
@@ -173,7 +181,7 @@ hr{
 }
 .menu-dropdown span{
 	text-transform: uppercase;
-	margin: 10px;
+	padding: 10px;
 }
 
 
@@ -210,14 +218,6 @@ hr{
 	}
 	.menu-icon{
 		display: block;
-	}
-
-}
-
-@media screen and (max-width: 400px){
-
-	.thumbnail-container div{
-		width: 100%;
 	}
 
 }

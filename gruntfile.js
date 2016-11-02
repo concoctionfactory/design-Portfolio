@@ -54,8 +54,13 @@ module.exports = function(grunt) {
 			main: {
 				files: [
 					// includes files within path and its sub-directories
-					{expand: true,  cwd: 'src/images/', src: ['**'], dest: 'dist/images'},
+					//{expand: true,  cwd: 'src/images/', src: ['**'], dest: 'dist/images'},
 					{expand: true,  cwd: 'src/json/', src: ['**'], dest: 'dist/json'},
+				],
+			},
+			images:{
+				files: [
+					{expand: true,  cwd: 'src/images/', src: ['**'], dest: 'dist/images'},
 				],
 			}
 		},
@@ -92,10 +97,10 @@ module.exports = function(grunt) {
 grunt.loadNpmTasks('grunt-newer');
 
 	grunt.registerTask('default', [
-		//'jshint',
+		'jshint',
 		//'removelogging'
 		//'concat',
-		'copy',
+		//'copy',
 		// 'htmlmin',
 		// 'cssmin',
 		//'uglify',
@@ -104,5 +109,25 @@ grunt.loadNpmTasks('grunt-newer');
 
 	grunt.registerTask('image', [
 		'newer:imagemin:dynamic'
-		]);
-};
+	]);
+
+	grunt.registerTask('json',[
+		'copy:main'
+	]);
+
+	grunt.registerTask('js',[
+		'jshint',
+		'uglify'
+	]);
+
+	grunt.registerTask('css',[
+		'cssmin'
+	]);
+
+	grunt.registerTask('html',[
+		'htmlmin'
+	]);
+
+
+	};
+

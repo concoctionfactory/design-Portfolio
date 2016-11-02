@@ -127,8 +127,9 @@ var ShowProjectView= Backbone.View.extend({
 		this.$el.find(".title-nav").html(title);
 		this.$el.find(".body").html(images);
 		this.$el.find(".footer").html("");
-		this.$el.find(".footer").append(task);
+
 		this.$el.find(".footer").append(description);
+		this.$el.find(".footer").append(task);
 		this.prevNextView.render();
 		this.footerPrevNext.render();
 		return this;
