@@ -1,0 +1,454 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'grunt-cmv-git-subtree',
+1 verbose cli   '--save-dev' ]
+2 info using npm@2.14.2
+3 info using node@v4.0.0
+4 verbose install initial load of c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site\package.json
+5 warn package.json dgl_portfolio_site@1.0.0 No repository field.
+6 verbose installManyTop reading scoped package data from c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site\node_modules\grunt\package.json
+7 verbose installManyTop reading scoped package data from c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site\node_modules\grunt-contrib-concat\package.json
+8 verbose installManyTop reading scoped package data from c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site\node_modules\grunt-contrib-copy\package.json
+9 verbose installManyTop reading scoped package data from c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site\node_modules\grunt-contrib-cssmin\package.json
+10 verbose installManyTop reading scoped package data from c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site\node_modules\grunt-contrib-htmlmin\package.json
+11 verbose installManyTop reading scoped package data from c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site\node_modules\grunt-contrib-imagemin\package.json
+12 verbose installManyTop reading scoped package data from c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site\node_modules\grunt-contrib-jshint\package.json
+13 verbose installManyTop reading scoped package data from c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site\node_modules\grunt-contrib-uglify\package.json
+14 verbose installManyTop reading scoped package data from c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site\node_modules\grunt-newer\package.json
+15 verbose installManyTop reading scoped package data from c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site\node_modules\grunt-remove-logging\package.json
+16 verbose installManyTop reading scoped package data from c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site\node_modules\load-grunt-tasks\package.json
+17 info package.json grunt-remove-logging@0.2.0 No license field.
+18 verbose readDependencies loading dependencies from c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site\package.json
+19 silly cache add args [ 'grunt-cmv-git-subtree', null ]
+20 verbose cache add spec grunt-cmv-git-subtree
+21 silly cache add parsed spec Result {
+21 silly cache add   raw: 'grunt-cmv-git-subtree',
+21 silly cache add   scope: null,
+21 silly cache add   name: 'grunt-cmv-git-subtree',
+21 silly cache add   rawSpec: '',
+21 silly cache add   spec: '*',
+21 silly cache add   type: 'range' }
+22 silly addNamed grunt-cmv-git-subtree@*
+23 verbose addNamed "*" is a valid semver range for grunt-cmv-git-subtree
+24 silly addNameRange { name: 'grunt-cmv-git-subtree', range: '*', hasData: false }
+25 silly mapToRegistry name grunt-cmv-git-subtree
+26 silly mapToRegistry using default registry
+27 silly mapToRegistry registry https://registry.npmjs.org/
+28 silly mapToRegistry uri https://registry.npmjs.org/grunt-cmv-git-subtree
+29 verbose addNameRange registry:https://registry.npmjs.org/grunt-cmv-git-subtree not in flight; fetching
+30 verbose request uri https://registry.npmjs.org/grunt-cmv-git-subtree
+31 verbose request no auth needed
+32 info attempt registry request try #1 at 8:44:56 PM
+33 verbose request id df58d2fe35aaa088
+34 http request GET https://registry.npmjs.org/grunt-cmv-git-subtree
+35 http 200 https://registry.npmjs.org/grunt-cmv-git-subtree
+36 silly get cb [ 200,
+36 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+36 silly get     etag: '"6CCXUGO4M5BGBRZ3G8AWDEM0G"',
+36 silly get     'content-type': 'application/json',
+36 silly get     'content-encoding': 'gzip',
+36 silly get     'cache-control': 'max-age=300',
+36 silly get     'content-length': '1909',
+36 silly get     'accept-ranges': 'bytes',
+36 silly get     date: 'Thu, 03 Nov 2016 00:44:54 GMT',
+36 silly get     via: '1.1 varnish',
+36 silly get     age: '0',
+36 silly get     connection: 'keep-alive',
+36 silly get     'x-served-by': 'cache-jfk8122-JFK',
+36 silly get     'x-cache': 'MISS',
+36 silly get     'x-cache-hits': '0',
+36 silly get     'x-timer': 'S1478133894.458284,VS0,VE82',
+36 silly get     vary: 'Accept-Encoding' } ]
+37 verbose get saving grunt-cmv-git-subtree to C:\Users\David\AppData\Roaming\npm-cache\registry.npmjs.org\grunt-cmv-git-subtree\.cache.json
+38 silly addNameRange number 2 { name: 'grunt-cmv-git-subtree', range: '*', hasData: true }
+39 silly addNameRange versions [ 'grunt-cmv-git-subtree', [ '0.1.0' ] ]
+40 silly addNamed grunt-cmv-git-subtree@0.1.0
+41 verbose addNamed "0.1.0" is a plain semver version for grunt-cmv-git-subtree
+42 silly mapToRegistry name grunt-cmv-git-subtree
+43 silly mapToRegistry using default registry
+44 silly mapToRegistry registry https://registry.npmjs.org/
+45 silly mapToRegistry uri https://registry.npmjs.org/grunt-cmv-git-subtree
+46 verbose addRemoteTarball https://registry.npmjs.org/grunt-cmv-git-subtree/-/grunt-cmv-git-subtree-0.1.0.tgz not in flight; adding
+47 verbose addRemoteTarball [ 'https://registry.npmjs.org/grunt-cmv-git-subtree/-/grunt-cmv-git-subtree-0.1.0.tgz',
+47 verbose addRemoteTarball   '18a535893086dd146b864b5732da99d9be729956' ]
+48 info retry fetch attempt 1 at 8:44:56 PM
+49 info attempt registry request try #1 at 8:44:56 PM
+50 http fetch GET https://registry.npmjs.org/grunt-cmv-git-subtree/-/grunt-cmv-git-subtree-0.1.0.tgz
+51 http fetch 200 https://registry.npmjs.org/grunt-cmv-git-subtree/-/grunt-cmv-git-subtree-0.1.0.tgz
+52 silly fetchAndShaCheck shasum 18a535893086dd146b864b5732da99d9be729956
+53 verbose addTmpTarball C:\Users\David\AppData\Local\Temp\npm-12284-5ef883f0\registry.npmjs.org\grunt-cmv-git-subtree\-\grunt-cmv-git-subtree-0.1.0.tgz not in flight; adding
+54 verbose addTmpTarball already have metadata; skipping unpack for grunt-cmv-git-subtree@0.1.0
+55 silly cache afterAdd grunt-cmv-git-subtree@0.1.0
+56 verbose afterAdd C:\Users\David\AppData\Roaming\npm-cache\grunt-cmv-git-subtree\0.1.0\package\package.json not in flight; writing
+57 verbose afterAdd C:\Users\David\AppData\Roaming\npm-cache\grunt-cmv-git-subtree\0.1.0\package\package.json written
+58 silly install resolved [ { name: 'grunt-cmv-git-subtree',
+58 silly install resolved     description: 'A grunt task to work with git subtrees',
+58 silly install resolved     version: '0.1.0',
+58 silly install resolved     homepage: 'https://github.com/liaodrake/grunt-cmv-git-subtree',
+58 silly install resolved     author:
+58 silly install resolved      { name: 'Christopher Vachon',
+58 silly install resolved        email: 'code@christophervachon.com',
+58 silly install resolved        url: 'christophervachon.com' },
+58 silly install resolved     repository:
+58 silly install resolved      { type: 'git',
+58 silly install resolved        url: 'https://github.com/liaodrake/grunt-cmv-git-subtree.git' },
+58 silly install resolved     bugs: { url: 'https://github.com/liaodrake/grunt-cmv-git-subtree/issues' },
+58 silly install resolved     licenses: [ [Object] ],
+58 silly install resolved     engines: { node: '>= 0.8.0' },
+58 silly install resolved     scripts: { test: 'grunt test' },
+58 silly install resolved     devDependencies:
+58 silly install resolved      { 'grunt-contrib-jshint': '^0.9.2',
+58 silly install resolved        'grunt-contrib-clean': '^0.5.0',
+58 silly install resolved        'grunt-contrib-nodeunit': '^0.3.3',
+58 silly install resolved        grunt: '~0.4.5' },
+58 silly install resolved     peerDependencies: { grunt: '~0.4.5' },
+58 silly install resolved     dependencies: { shelljs: '~0.2.5' },
+58 silly install resolved     keywords: [ 'gruntplugin' ],
+58 silly install resolved     gitHead: '224edf114dab848635500523f17fa61b88b16573',
+58 silly install resolved     _id: 'grunt-cmv-git-subtree@0.1.0',
+58 silly install resolved     _shasum: '18a535893086dd146b864b5732da99d9be729956',
+58 silly install resolved     _from: 'grunt-cmv-git-subtree@*',
+58 silly install resolved     _npmVersion: '1.4.28',
+58 silly install resolved     _npmUser: { name: 'liaodrake', email: 'code@christophervachon.com' },
+58 silly install resolved     maintainers: [ [Object] ],
+58 silly install resolved     dist:
+58 silly install resolved      { shasum: '18a535893086dd146b864b5732da99d9be729956',
+58 silly install resolved        tarball: 'https://registry.npmjs.org/grunt-cmv-git-subtree/-/grunt-cmv-git-subtree-0.1.0.tgz' },
+58 silly install resolved     directories: {},
+58 silly install resolved     _resolved: 'https://registry.npmjs.org/grunt-cmv-git-subtree/-/grunt-cmv-git-subtree-0.1.0.tgz' } ]
+59 info install grunt-cmv-git-subtree@0.1.0 into c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site
+60 info installOne grunt-cmv-git-subtree@0.1.0
+61 verbose installOne of grunt-cmv-git-subtree to c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site not in flight; installing
+62 verbose lock using C:\Users\David\AppData\Roaming\npm-cache\_locks\grunt-cmv-git-subtree-d8569e1aa432ac60.lock for c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site\node_modules\grunt-cmv-git-subtree
+63 silly install write writing grunt-cmv-git-subtree 0.1.0 to c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site\node_modules\grunt-cmv-git-subtree
+64 verbose unbuild node_modules\grunt-cmv-git-subtree
+65 silly gentlyRm c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site\node_modules\grunt-cmv-git-subtree is being purged from base c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site
+66 verbose gentlyRm don't care about contents; nuking c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site\node_modules\grunt-cmv-git-subtree
+67 verbose tar unpack C:\Users\David\AppData\Roaming\npm-cache\grunt-cmv-git-subtree\0.1.0\package.tgz
+68 verbose tar unpacking to c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site\node_modules\grunt-cmv-git-subtree
+69 silly gentlyRm c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site\node_modules\grunt-cmv-git-subtree is being purged
+70 verbose gentlyRm don't care about contents; nuking c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site\node_modules\grunt-cmv-git-subtree
+71 silly gunzTarPerm modes [ '777', '666' ]
+72 silly gunzTarPerm extractEntry package.json
+73 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+74 silly gunzTarPerm extractEntry .npmignore
+75 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+76 silly gunzTarPerm extractEntry README.md
+77 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+78 silly gunzTarPerm extractEntry Gruntfile.js
+79 silly gunzTarPerm modified mode [ 'Gruntfile.js', 420, 438 ]
+80 silly gunzTarPerm extractEntry .jshintrc
+81 silly gunzTarPerm modified mode [ '.jshintrc', 420, 438 ]
+82 silly gunzTarPerm extractEntry LICENSE-MIT
+83 silly gunzTarPerm modified mode [ 'LICENSE-MIT', 420, 438 ]
+84 silly gunzTarPerm extractEntry VERSION
+85 silly gunzTarPerm modified mode [ 'VERSION', 420, 438 ]
+86 silly gunzTarPerm extractEntry tasks/git_subtree_add.js
+87 silly gunzTarPerm modified mode [ 'tasks/git_subtree_add.js', 420, 438 ]
+88 silly gunzTarPerm extractEntry tasks/git_subtree_pull.js
+89 silly gunzTarPerm modified mode [ 'tasks/git_subtree_pull.js', 420, 438 ]
+90 silly gunzTarPerm extractEntry tasks/git_subtree_push.js
+91 silly gunzTarPerm modified mode [ 'tasks/git_subtree_push.js', 420, 438 ]
+92 verbose write writing to c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site\node_modules\grunt-cmv-git-subtree\package.json
+93 info preinstall grunt-cmv-git-subtree@0.1.0
+94 verbose readDependencies loading dependencies from c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site\node_modules\grunt-cmv-git-subtree\package.json
+95 silly prepareForInstallMany adding shelljs@~0.2.5 from grunt-cmv-git-subtree dependencies
+96 silly prepareForInstallMany adding grunt@~0.4.5 from grunt-cmv-git-subtree peerDependencies
+97 warn peerDependencies The peer dependency grunt@~0.4.5 included from grunt-cmv-git-subtree will no
+98 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+99 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+100 verbose readDependencies loading dependencies from c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site\node_modules\grunt-cmv-git-subtree\package.json
+101 silly cache add args [ 'shelljs@~0.2.5', null ]
+102 verbose cache add spec shelljs@~0.2.5
+103 silly cache add parsed spec Result {
+103 silly cache add   raw: 'shelljs@~0.2.5',
+103 silly cache add   scope: null,
+103 silly cache add   name: 'shelljs',
+103 silly cache add   rawSpec: '~0.2.5',
+103 silly cache add   spec: '>=0.2.5 <0.3.0',
+103 silly cache add   type: 'range' }
+104 silly addNamed shelljs@>=0.2.5 <0.3.0
+105 verbose addNamed ">=0.2.5 <0.3.0" is a valid semver range for shelljs
+106 silly addNameRange { name: 'shelljs', range: '>=0.2.5 <0.3.0', hasData: false }
+107 silly mapToRegistry name shelljs
+108 silly mapToRegistry using default registry
+109 silly mapToRegistry registry https://registry.npmjs.org/
+110 silly mapToRegistry uri https://registry.npmjs.org/shelljs
+111 verbose addNameRange registry:https://registry.npmjs.org/shelljs not in flight; fetching
+112 verbose request uri https://registry.npmjs.org/shelljs
+113 verbose request no auth needed
+114 info attempt registry request try #1 at 8:44:57 PM
+115 verbose etag "6SW4FOMYQZ9X25LQG57W00LMO"
+116 http request GET https://registry.npmjs.org/shelljs
+117 http 200 https://registry.npmjs.org/shelljs
+118 silly get cb [ 200,
+118 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+118 silly get     etag: '"2U6QFMG9E387VGE6W6MGZ2T4P"',
+118 silly get     'content-type': 'application/json',
+118 silly get     'content-encoding': 'gzip',
+118 silly get     'cache-control': 'max-age=300',
+118 silly get     'content-length': '16763',
+118 silly get     'accept-ranges': 'bytes',
+118 silly get     date: 'Thu, 03 Nov 2016 00:44:55 GMT',
+118 silly get     via: '1.1 varnish',
+118 silly get     age: '207',
+118 silly get     connection: 'keep-alive',
+118 silly get     'x-served-by': 'cache-jfk8138-JFK',
+118 silly get     'x-cache': 'HIT',
+118 silly get     'x-cache-hits': '2',
+118 silly get     'x-timer': 'S1478133895.170242,VS0,VE0',
+118 silly get     vary: 'Accept-Encoding' } ]
+119 verbose get saving shelljs to C:\Users\David\AppData\Roaming\npm-cache\registry.npmjs.org\shelljs\.cache.json
+120 silly addNameRange number 2 { name: 'shelljs', range: '>=0.2.5 <0.3.0', hasData: true }
+121 silly addNameRange versions [ 'shelljs',
+121 silly addNameRange   [ '0.0.1',
+121 silly addNameRange     '0.0.2',
+121 silly addNameRange     '0.0.3',
+121 silly addNameRange     '0.0.4',
+121 silly addNameRange     '0.0.5',
+121 silly addNameRange     '0.0.6',
+121 silly addNameRange     '0.0.7',
+121 silly addNameRange     '0.0.8',
+121 silly addNameRange     '0.0.9',
+121 silly addNameRange     '0.1.0',
+121 silly addNameRange     '0.1.1',
+121 silly addNameRange     '0.1.2',
+121 silly addNameRange     '0.1.3',
+121 silly addNameRange     '0.1.4',
+121 silly addNameRange     '0.2.0',
+121 silly addNameRange     '0.2.1',
+121 silly addNameRange     '0.2.2',
+121 silly addNameRange     '0.2.3',
+121 silly addNameRange     '0.2.4',
+121 silly addNameRange     '0.2.5',
+121 silly addNameRange     '0.2.6',
+121 silly addNameRange     '0.3.0',
+121 silly addNameRange     '0.4.0',
+121 silly addNameRange     '0.5.0',
+121 silly addNameRange     '0.5.1',
+121 silly addNameRange     '0.5.2',
+121 silly addNameRange     '0.5.3',
+121 silly addNameRange     '0.6.0',
+121 silly addNameRange     '0.7.0',
+121 silly addNameRange     '0.7.1',
+121 silly addNameRange     '0.7.2',
+121 silly addNameRange     '0.7.3',
+121 silly addNameRange     '0.6.1',
+121 silly addNameRange     '0.7.4',
+121 silly addNameRange     '0.7.5',
+121 silly addNameRange     '0.0.1-alpha1',
+121 silly addNameRange     '0.0.2-pre1',
+121 silly addNameRange     '0.0.4-pre1',
+121 silly addNameRange     '0.0.5-pre1',
+121 silly addNameRange     '0.0.5-pre2',
+121 silly addNameRange     '0.0.5-pre3',
+121 silly addNameRange     '0.0.5-pre4',
+121 silly addNameRange     '0.0.6-pre1',
+121 silly addNameRange     '0.0.6-pre2' ] ]
+122 silly addNamed shelljs@0.2.6
+123 verbose addNamed "0.2.6" is a plain semver version for shelljs
+124 silly mapToRegistry name shelljs
+125 silly mapToRegistry using default registry
+126 silly mapToRegistry registry https://registry.npmjs.org/
+127 silly mapToRegistry uri https://registry.npmjs.org/shelljs
+128 verbose addRemoteTarball https://registry.npmjs.org/shelljs/-/shelljs-0.2.6.tgz not in flight; adding
+129 verbose addRemoteTarball [ 'https://registry.npmjs.org/shelljs/-/shelljs-0.2.6.tgz',
+129 verbose addRemoteTarball   '90492d72ffcc8159976baba62fb0f6884f0c3378' ]
+130 info retry fetch attempt 1 at 8:44:57 PM
+131 info attempt registry request try #1 at 8:44:57 PM
+132 http fetch GET https://registry.npmjs.org/shelljs/-/shelljs-0.2.6.tgz
+133 http fetch 200 https://registry.npmjs.org/shelljs/-/shelljs-0.2.6.tgz
+134 silly fetchAndShaCheck shasum 90492d72ffcc8159976baba62fb0f6884f0c3378
+135 verbose addTmpTarball C:\Users\David\AppData\Local\Temp\npm-12284-5ef883f0\registry.npmjs.org\shelljs\-\shelljs-0.2.6.tgz not in flight; adding
+136 verbose addTmpTarball already have metadata; skipping unpack for shelljs@0.2.6
+137 silly cache afterAdd shelljs@0.2.6
+138 verbose afterAdd C:\Users\David\AppData\Roaming\npm-cache\shelljs\0.2.6\package\package.json not in flight; writing
+139 verbose afterAdd C:\Users\David\AppData\Roaming\npm-cache\shelljs\0.2.6\package\package.json written
+140 silly install resolved [ { name: 'shelljs',
+140 silly install resolved     version: '0.2.6',
+140 silly install resolved     author: { name: 'Artur Adib', email: 'aadib@mozilla.com' },
+140 silly install resolved     description: 'Portable Unix shell commands for Node.js',
+140 silly install resolved     keywords: [ 'unix', 'shell', 'makefile', 'make', 'jake', 'synchronous' ],
+140 silly install resolved     repository: { type: 'git', url: 'git://github.com/arturadib/shelljs.git' },
+140 silly install resolved     homepage: 'http://github.com/arturadib/shelljs',
+140 silly install resolved     main: './shell.js',
+140 silly install resolved     scripts: { test: 'node scripts/run-tests' },
+140 silly install resolved     bin: { shjs: './bin/shjs' },
+140 silly install resolved     dependencies: {},
+140 silly install resolved     devDependencies: { jshint: '~2.1.11' },
+140 silly install resolved     optionalDependencies: {},
+140 silly install resolved     engines: { node: '>=0.8.0' },
+140 silly install resolved     bugs: { url: 'https://github.com/arturadib/shelljs/issues' },
+140 silly install resolved     _id: 'shelljs@0.2.6',
+140 silly install resolved     dist:
+140 silly install resolved      { shasum: '90492d72ffcc8159976baba62fb0f6884f0c3378',
+140 silly install resolved        tarball: 'https://registry.npmjs.org/shelljs/-/shelljs-0.2.6.tgz' },
+140 silly install resolved     _from: 'shelljs@>=0.2.5 <0.3.0',
+140 silly install resolved     _npmVersion: '1.3.8',
+140 silly install resolved     _npmUser: { name: 'artur', email: 'arturadib@gmail.com' },
+140 silly install resolved     maintainers: [ [Object] ],
+140 silly install resolved     directories: {},
+140 silly install resolved     _shasum: '90492d72ffcc8159976baba62fb0f6884f0c3378',
+140 silly install resolved     _resolved: 'https://registry.npmjs.org/shelljs/-/shelljs-0.2.6.tgz' } ]
+141 info install shelljs@0.2.6 into c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site\node_modules\grunt-cmv-git-subtree
+142 info installOne shelljs@0.2.6
+143 verbose installOne of shelljs to c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site\node_modules\grunt-cmv-git-subtree not in flight; installing
+144 verbose lock using C:\Users\David\AppData\Roaming\npm-cache\_locks\shelljs-b5693f0904b2d601.lock for c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site\node_modules\grunt-cmv-git-subtree\node_modules\shelljs
+145 silly install write writing shelljs 0.2.6 to c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site\node_modules\grunt-cmv-git-subtree\node_modules\shelljs
+146 verbose unbuild node_modules\grunt-cmv-git-subtree\node_modules\shelljs
+147 silly gentlyRm c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site\node_modules\grunt-cmv-git-subtree\node_modules\shelljs is being purged from base c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site
+148 verbose gentlyRm don't care about contents; nuking c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site\node_modules\grunt-cmv-git-subtree\node_modules\shelljs
+149 verbose tar unpack C:\Users\David\AppData\Roaming\npm-cache\shelljs\0.2.6\package.tgz
+150 verbose tar unpacking to c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site\node_modules\grunt-cmv-git-subtree\node_modules\shelljs
+151 silly gentlyRm c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site\node_modules\grunt-cmv-git-subtree\node_modules\shelljs is being purged
+152 verbose gentlyRm don't care about contents; nuking c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site\node_modules\grunt-cmv-git-subtree\node_modules\shelljs
+153 silly gunzTarPerm modes [ '777', '666' ]
+154 silly gunzTarPerm extractEntry package.json
+155 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+156 silly gunzTarPerm extractEntry .npmignore
+157 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+158 silly gunzTarPerm extractEntry README.md
+159 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+160 silly gunzTarPerm extractEntry LICENSE
+161 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+162 silly gunzTarPerm extractEntry global.js
+163 silly gunzTarPerm modified mode [ 'global.js', 420, 438 ]
+164 silly gunzTarPerm extractEntry make.js
+165 silly gunzTarPerm modified mode [ 'make.js', 420, 438 ]
+166 silly gunzTarPerm extractEntry shell.js
+167 silly gunzTarPerm modified mode [ 'shell.js', 420, 438 ]
+168 silly gunzTarPerm extractEntry bin/shjs
+169 silly gunzTarPerm modified mode [ 'bin/shjs', 493, 511 ]
+170 silly gunzTarPerm extractEntry .travis.yml
+171 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+172 silly gunzTarPerm extractEntry .jshintrc
+173 silly gunzTarPerm modified mode [ '.jshintrc', 420, 438 ]
+174 silly gunzTarPerm extractEntry scripts/generate-docs.js
+175 silly gunzTarPerm modified mode [ 'scripts/generate-docs.js', 493, 511 ]
+176 silly gunzTarPerm extractEntry scripts/run-tests.js
+177 silly gunzTarPerm modified mode [ 'scripts/run-tests.js', 493, 511 ]
+178 silly gunzTarPerm extractEntry .documentup.json
+179 silly gunzTarPerm modified mode [ '.documentup.json', 420, 438 ]
+180 silly gunzTarPerm extractEntry src/cat.js
+181 silly gunzTarPerm modified mode [ 'src/cat.js', 420, 438 ]
+182 silly gunzTarPerm extractEntry src/exec.js
+183 silly gunzTarPerm modified mode [ 'src/exec.js', 420, 438 ]
+184 silly gunzTarPerm extractEntry src/find.js
+185 silly gunzTarPerm modified mode [ 'src/find.js', 420, 438 ]
+186 silly gunzTarPerm extractEntry src/grep.js
+187 silly gunzTarPerm modified mode [ 'src/grep.js', 420, 438 ]
+188 silly gunzTarPerm extractEntry src/ls.js
+189 silly gunzTarPerm modified mode [ 'src/ls.js', 420, 438 ]
+190 silly gunzTarPerm extractEntry src/error.js
+191 silly gunzTarPerm modified mode [ 'src/error.js', 420, 438 ]
+192 silly gunzTarPerm extractEntry src/mv.js
+193 silly gunzTarPerm modified mode [ 'src/mv.js', 420, 438 ]
+194 silly gunzTarPerm extractEntry src/popd.js
+195 silly gunzTarPerm modified mode [ 'src/popd.js', 420, 438 ]
+196 silly gunzTarPerm extractEntry src/pushd.js
+197 silly gunzTarPerm modified mode [ 'src/pushd.js', 420, 438 ]
+198 silly gunzTarPerm extractEntry src/pwd.js
+199 silly gunzTarPerm modified mode [ 'src/pwd.js', 420, 438 ]
+200 silly gunzTarPerm extractEntry src/rm.js
+201 silly gunzTarPerm modified mode [ 'src/rm.js', 420, 438 ]
+202 silly gunzTarPerm extractEntry src/echo.js
+203 silly gunzTarPerm modified mode [ 'src/echo.js', 420, 438 ]
+204 silly gunzTarPerm extractEntry src/sed.js
+205 silly gunzTarPerm modified mode [ 'src/sed.js', 420, 438 ]
+206 silly gunzTarPerm extractEntry src/dirs.js
+207 silly gunzTarPerm modified mode [ 'src/dirs.js', 420, 438 ]
+208 silly gunzTarPerm extractEntry src/tempdir.js
+209 silly gunzTarPerm modified mode [ 'src/tempdir.js', 420, 438 ]
+210 silly gunzTarPerm extractEntry src/cp.js
+211 silly gunzTarPerm modified mode [ 'src/cp.js', 420, 438 ]
+212 silly gunzTarPerm extractEntry src/test.js
+213 silly gunzTarPerm modified mode [ 'src/test.js', 420, 438 ]
+214 silly gunzTarPerm extractEntry src/common.js
+215 silly gunzTarPerm modified mode [ 'src/common.js', 420, 438 ]
+216 silly gunzTarPerm extractEntry src/to.js
+217 silly gunzTarPerm modified mode [ 'src/to.js', 420, 438 ]
+218 silly gunzTarPerm extractEntry src/chmod.js
+219 silly gunzTarPerm modified mode [ 'src/chmod.js', 420, 438 ]
+220 silly gunzTarPerm extractEntry src/toEnd.js
+221 silly gunzTarPerm modified mode [ 'src/toEnd.js', 420, 438 ]
+222 silly gunzTarPerm extractEntry src/cd.js
+223 silly gunzTarPerm modified mode [ 'src/cd.js', 420, 438 ]
+224 silly gunzTarPerm extractEntry src/which.js
+225 silly gunzTarPerm modified mode [ 'src/which.js', 420, 438 ]
+226 silly gunzTarPerm extractEntry src/mkdir.js
+227 silly gunzTarPerm modified mode [ 'src/mkdir.js', 420, 438 ]
+228 verbose write writing to c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site\node_modules\grunt-cmv-git-subtree\node_modules\shelljs\package.json
+229 info preinstall shelljs@0.2.6
+230 verbose readDependencies loading dependencies from c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site\node_modules\grunt-cmv-git-subtree\node_modules\shelljs\package.json
+231 verbose readDependencies loading dependencies from c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site\node_modules\grunt-cmv-git-subtree\node_modules\shelljs\package.json
+232 silly install resolved []
+233 verbose about to build c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site\node_modules\grunt-cmv-git-subtree\node_modules\shelljs
+234 info build c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site\node_modules\grunt-cmv-git-subtree\node_modules\shelljs
+235 info linkStuff shelljs@0.2.6
+236 silly linkStuff shelljs@0.2.6 has c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site\node_modules\grunt-cmv-git-subtree\node_modules as its parent node_modules
+237 verbose linkBins shelljs@0.2.6
+238 verbose link bins [ { shjs: './bin/shjs' },
+238 verbose link bins   'c:\\Users\\David\\Documents\\_udacity\\portfolio\\dgl_portfolio_site\\node_modules\\grunt-cmv-git-subtree\\node_modules\\.bin',
+238 verbose link bins   false ]
+239 verbose linkMans shelljs@0.2.6
+240 verbose rebuildBundles shelljs@0.2.6
+241 info install shelljs@0.2.6
+242 info postinstall shelljs@0.2.6
+243 verbose unlock done using C:\Users\David\AppData\Roaming\npm-cache\_locks\shelljs-b5693f0904b2d601.lock for c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site\node_modules\grunt-cmv-git-subtree\node_modules\shelljs
+244 verbose about to build c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site\node_modules\grunt-cmv-git-subtree
+245 info build c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site\node_modules\grunt-cmv-git-subtree
+246 info linkStuff grunt-cmv-git-subtree@0.1.0
+247 silly linkStuff grunt-cmv-git-subtree@0.1.0 has c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site\node_modules as its parent node_modules
+248 verbose linkBins grunt-cmv-git-subtree@0.1.0
+249 verbose linkMans grunt-cmv-git-subtree@0.1.0
+250 verbose rebuildBundles grunt-cmv-git-subtree@0.1.0
+251 verbose rebuildBundles [ '.bin', 'shelljs' ]
+252 info install grunt-cmv-git-subtree@0.1.0
+253 info postinstall grunt-cmv-git-subtree@0.1.0
+254 verbose readDependencies loading dependencies from c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site\package.json
+255 verbose targetResolver reading package data from c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site\node_modules\grunt\package.json
+256 verbose targetResolver reading package data from c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site\node_modules\grunt-cmv-git-subtree\package.json
+257 verbose targetResolver reading package data from c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site\node_modules\grunt-contrib-concat\package.json
+258 verbose targetResolver reading package data from c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site\node_modules\grunt-contrib-copy\package.json
+259 verbose targetResolver reading package data from c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site\node_modules\grunt-contrib-cssmin\package.json
+260 verbose targetResolver reading package data from c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site\node_modules\grunt-contrib-htmlmin\package.json
+261 verbose targetResolver reading package data from c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site\node_modules\grunt-contrib-imagemin\package.json
+262 verbose targetResolver reading package data from c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site\node_modules\grunt-contrib-jshint\package.json
+263 verbose targetResolver reading package data from c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site\node_modules\grunt-contrib-uglify\package.json
+264 verbose targetResolver reading package data from c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site\node_modules\grunt-newer\package.json
+265 verbose targetResolver reading package data from c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site\node_modules\grunt-remove-logging\package.json
+266 verbose targetResolver reading package data from c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site\node_modules\load-grunt-tasks\package.json
+267 verbose targetResolver reading package data from c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site\node_modules\.bin\grunt\package.json
+268 verbose targetResolver reading package data from c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site\node_modules\.bin\grunt-remove-logging\package.json
+269 verbose targetResolver reading package data from c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site\node_modules\.bin\grunt-remove-logging.cmd\package.json
+270 verbose targetResolver reading package data from c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site\node_modules\.bin\grunt.cmd\package.json
+271 verbose already installed skipping grunt@~0.4.5 c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site
+272 silly install resolved []
+273 verbose unlock done using C:\Users\David\AppData\Roaming\npm-cache\_locks\grunt-cmv-git-subtree-d8569e1aa432ac60.lock for c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site\node_modules\grunt-cmv-git-subtree
+274 verbose validateInstall loading c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site\package.json for validation
+275 verbose stack Error: The package grunt@1.0.1 does not satisfy its siblings' peerDependencies requirements!
+275 verbose stack     at c:\Program Files\nodejs\node_modules\npm\lib\install.js:125:32
+275 verbose stack     at c:\Program Files\nodejs\node_modules\npm\lib\install.js:268:7
+275 verbose stack     at c:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:142:5
+275 verbose stack     at c:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+275 verbose stack     at cb (c:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+275 verbose stack     at c:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+275 verbose stack     at cb (c:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+275 verbose stack     at c:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+275 verbose stack     at cb (c:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+275 verbose stack     at c:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+276 verbose cwd c:\Users\David\Documents\_udacity\portfolio\dgl_portfolio_site
+277 error Windows_NT 6.1.7601
+278 error argv "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "grunt-cmv-git-subtree" "--save-dev"
+279 error node v4.0.0
+280 error npm  v2.14.2
+281 error code EPEERINVALID
+282 error peerinvalid The package grunt@1.0.1 does not satisfy its siblings' peerDependencies requirements!
+282 error peerinvalid Peer grunt-contrib-jshint@1.0.0 wants grunt@>=0.4.0
+282 error peerinvalid Peer grunt-cmv-git-subtree@0.1.0 wants grunt@~0.4.5
+282 error peerinvalid Peer grunt-contrib-concat@1.0.1 wants grunt@>=0.4.0
+282 error peerinvalid Peer load-grunt-tasks@3.5.2 wants grunt@>=0.4.0
+282 error peerinvalid Peer grunt-newer@1.2.0 wants grunt@>=0.4.1
+283 verbose exit [ 1, true ]

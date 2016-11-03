@@ -44,7 +44,7 @@ body {
 }
 
 
-.footer{
+.footer:last-child{
 	margin: 30px;
 }
 
