@@ -4,8 +4,6 @@ This portfolio is a collection of my recent 3d rendering work. And it was also a
 
 
 
-## view the github-pages version here
-
+## View the github-pages version here
 https://concoctionfactory.github.io/design-portfolio/
 
-# design-Portfolio
