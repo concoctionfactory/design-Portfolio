@@ -1,14 +1,11 @@
-#Resume Project
+#Design Portfolio
 
-This is a portfolio Site, created using html css and some bootstrap
-
-## Install
-
-`$ git clone https://github.com/concoctionfactory/udacity_FEND_P2_portfolioSite.git`
+This portfolio is a collection of my more recent 3d rendering work. And was also a chance for me try out backbone. I read in data from a json file and used underscore as a templating system.
 
 
-## Run
 
-run index.html in web browser
+## view the github-pages version here
+
+https://concoctionfactory.github.io/design-portfolio/
 
 # design-Portfolio
