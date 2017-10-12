@@ -254,11 +254,15 @@
 		"folder":"grenco",
 		"thumbnail":"grenco_thumb.jpg",
 		"title":"grenco",
-		"tasks":["id","modeling", "rendering"],
+		"tasks":["id","modeling", "rendering", "animation"],
 		"description":"this is grenco",
 		"images":[
 			"grenco_1.jpg",
-			"grenco_2.jpg"
+			"grenco_2.jpg",
+			"grenco_3.jpg",
+			"grenco_elite.webm",
+			"grenco_4.jpg",
+			"grenco_5.jpg"
 		],
 		"url":"grenco"
 	},
@@ -401,6 +405,19 @@
 			"thinkcreative.webm"
 		],
 		"url":"thinkcreative"
+	},
+	{
+		"folder":"grenco_pro",
+		"thumbnail":"grenco_pro_thumb.jpg",
+		"title":"grenco",
+		"tasks":["id","modeling", "rendering", "animation"],
+		"description":"this is grenco pro",
+		"images":[
+			"grenco_pro_1.jpg",
+			"grenco_pro_2.jpg",
+			"grenco_pro.webm"
+		],
+		"url":"grenco_pro"
 	}
 
 
