@@ -344,6 +344,63 @@
 			"davinci_2.jpg"
 		],
 		"url":"davinci"
+	},
+	{
+		"folder":"vegg",
+		"thumbnail":"vegg_thumb.jpg",
+		"title":"vegg",
+		"tasks":["modeling", "rendering"],
+		"description":"this is vegg",
+		"images":[
+			"vegg_1.jpg",
+			"vegg_2.jpg",
+			"vegg_3.jpg",
+			"vegg_4.jpg",
+			"vegg_5.jpg",
+			"vegg_6.jpg",
+			"vegg_7.jpg",
+			"vegg_8.gif"
+		],
+		"url":"vegg"
+	},
+	{
+		"folder":"helm",
+		"thumbnail":"helm_thumb.jpg",
+		"title":"helm",
+		"tasks":["id", "modeling", "rendering"],
+		"description":"this is helm",
+		"images":[
+			"helm_0_1.jpg",
+			"helm_0_2.jpg",
+			"helm_0_3.jpg",
+			
+			"helm_1.jpg",
+			"helm_2.jpg",
+			"helm_3.jpg",
+			"helm_4.jpg",
+			"helm_5.jpg",
+			"helm_6.jpg",
+			"helm_7.jpg",
+			"helm_8.jpg",
+			"helm_9.jpg",
+			"helm_10.jpg",
+			"helm_11.jpg",
+			"helm_12.jpg",
+			"helm_13.jpg"
+		],
+		"url":"helm"
+	},
+	{
+		"folder":"thinkcreative",
+		"thumbnail":"thinkcreative_1.jpg",
+		"title":"thinkcreative",
+		"tasks":["animation"],
+		"description":"this is thinkcreative",
+		"images":[
+			"thinkcreative_1.gif",
+			"thinkcreative.webm"
+		],
+		"url":"thinkcreative"
 	}
 
 

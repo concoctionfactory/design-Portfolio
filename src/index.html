@@ -72,9 +72,22 @@
 		<script id="showProjectTemplate" type ="text/html">
 			<div>
 				<h2 class="title"><%= title%><hr></h2>
-				<% for(var image in images) { %>
+				<!-- <% for(var image in images) { %>
 					<img class="image"src=<%= "images/"+folder+"/"+images[image] %>>
-				<% } %>
+				<% } %> -->
+				<% _.each(images, function(image){%>
+						
+					<% if(image.endsWith("webm")||image.endsWith("mp4" )){%>
+						<video class="image"src=<%= "images/"+folder+"/"+image %> controls/>
+						
+					<%} else {%>
+						<img class="image"src=<%= "images/"+folder+"/"+image %>>
+						<%}%>
+					
+
+
+						<%});%> 
+
 				<% if (typeof(tasks) !== "undefined") { %>
 					<div class="task">
 						<% for(var task in tasks) { %>
