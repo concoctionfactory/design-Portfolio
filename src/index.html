@@ -77,7 +77,7 @@
 				<% } %> -->
 				<% _.each(images, function(image){%>
 						
-					<% if(image.endsWith("webm")||image.endsWith("mp4" )){%>
+					<% if(image.endsWith("webm")||image.endsWith("mp4")||image.endsWith("m4v")){%>
 						<video class="image"src=<%= "images/"+folder+"/"+image %> controls/>
 						
 					<%} else {%>
