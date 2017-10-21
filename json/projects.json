@@ -69,11 +69,13 @@
 		"folder":"waterwell",
 		"thumbnail":"waterwell_1.jpg",
 		"title":"waterwell",
-		"tasks":["modeling", "rendering"],
+		"tasks":["modeling", "rendering", "animation"],
 		"description":"this is waterwell",
 		"images":[
 			"waterwell_1.jpg",
-			"waterwell_2.jpg"
+			"waterwell_2.jpg",
+			"waterwell_video_1.m4v",
+			"waterwell_video_2.mp4"
 		],
 		"url":"waterwell"
 	},
@@ -262,7 +264,7 @@
 			"grenco_3.jpg",
 			"grenco_elite.webm",
 			"grenco_4.jpg",
-			"grenco_5.jpg"
+			"grenco_5 .jpg"
 		],
 		"url":"grenco"
 	},
@@ -418,7 +420,52 @@
 			"grenco_pro.webm"
 		],
 		"url":"grenco_pro"
+	},
+	{
+		"folder":"wiz",
+		"thumbnail":"wiz_thumb.jpg",
+		"title":"wiz",
+		"tasks":["id","modeling", "rendering"],
+		"description":"this is wiz",
+		"images":[
+			"wiz_1.jpg",
+			"wiz_2.jpg",
+			"wiz_3.jpg",
+			"wiz_4.jpg",
+			"wiz_5.jpg"
+		],
+		"url":"wiz"
+	},
+	{
+		"folder":"grenco_gio",
+		"thumbnail":"gio_1.jpg",
+		"title":"gio",
+		"tasks":["modeling", "rendering", "animation"],
+		"description":"this is gio",
+		"images":[
+			"gio_1.jpg",
+			"gio_vid_1.m4v",
+			"gio_vid_2.mp4",
+			"gio_vid_3.mp4"
+		],
+		"url":"gio"
+	},
+	{
+		"folder":"select",
+		"thumbnail":"select_thumb.jpg",
+		"title":"select",
+		"tasks":["modeling", "rendering", "graphics"],
+		"description":"this is select",
+		"images":[
+			"select_1.jpg",
+			"select_2.jpg",
+			"select_3.jpg",
+			"select_4.jpg",
+			"select_5.jpg"
+		],
+		"url":"select"
 	}
+
 
 
 ]
