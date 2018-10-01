@@ -1,7 +1,7 @@
 [
 	{
 		"folder":"boxplant",
-		"thumbnail":"box_plant_2.jpg",
+		"thumbnail":"box_plant_thumb.jpg",
 		"title":"box_plant",
 		"tasks":["concept", "modeling", "rendering"],
 		"description":"this is boxplant",
@@ -13,7 +13,7 @@
 	},
 	{
 		"folder":"sleepy",
-		"thumbnail":"sleepy_1.jpg",
+		"thumbnail":"sleepy_thumb.jpg",
 		"title":"sleepy",
 		"tasks":["concept", "modeling", "rendering"],
 		"description":"this is sleepy",
@@ -38,7 +38,7 @@
 	},
 	{
 		"folder":"digipuppet",
-		"thumbnail":"digipuppet_1.jpg",
+		"thumbnail":"digipuppet_thumb.jpg",
 		"title":"digipuppet",
 		"tasks":["modeling", "rendering"],
 		"description":"this is digipuppet",
@@ -67,7 +67,7 @@
 	},
 	{
 		"folder":"waterwell",
-		"thumbnail":"waterwell_1.jpg",
+		"thumbnail":"waterwell_thumb.jpg",
 		"title":"waterwell",
 		"tasks":["modeling", "rendering", "animation"],
 		"description":"this is waterwell",
@@ -81,7 +81,7 @@
 	},
 		{
 		"folder":"luminosity",
-		"thumbnail":"luminosity_1.jpg",
+		"thumbnail":"luminosity_thumb.jpg",
 		"title":"luminosity",
 		"tasks":["modeling", "rendering"],
 		"description":"this is luminosity",
@@ -128,7 +128,7 @@
 	},
 		{
 		"folder":"pic",
-		"thumbnail":"pic_1.jpg",
+		"thumbnail":"pic_thumb.jpg",
 		"title":"pic",
 		"tasks":["modeling", "rendering"],
 		"description":"this is pic",
@@ -144,7 +144,7 @@
 	},
 		{
 		"folder":"monbaby",
-		"thumbnail":"monbaby_1_1.jpg",
+		"thumbnail":"monbaby_thumb.jpg",
 		"title":"monbaby",
 		"tasks":["modeling", "rendering"],
 		"description":"this is monbaby",
@@ -155,7 +155,7 @@
 	},
 		{
 		"folder":"khoi",
-		"thumbnail":"khoi_1.jpg",
+		"thumbnail":"khoi_thumb.jpg",
 		"title":"khoi",
 		"tasks":["modeling", "rendering"],
 		"description":"this is khoi",
@@ -182,7 +182,7 @@
 	},
 		{
 		"folder":"hi",
-		"thumbnail":"hi_1.jpg",
+		"thumbnail":"hi_thumb.jpg",
 		"title":"hi",
 		"tasks":["modeling", "rendering"],
 		"description":"this is hi",
@@ -208,7 +208,7 @@
 	},
 		{
 		"folder":"blume",
-		"thumbnail":"blume_1.jpg",
+		"thumbnail":"blume_thumb.jpg",
 		"title":"blume",
 		"tasks":["modeling", "rendering"],
 		"description":"this is blume",
@@ -270,7 +270,7 @@
 	},
 		{
 		"folder":"smileactive",
-		"thumbnail":"smileactive_1.jpg",
+		"thumbnail":"smileactive_thumb.jpg",
 		"title":"smileactive",
 		"tasks":["modeling", "rendering"],
 		"description":"this is smileactive",
@@ -398,7 +398,7 @@
 	},
 	{
 		"folder":"thinkcreative",
-		"thumbnail":"thinkcreative_1.jpg",
+		"thumbnail":"thinkcreative_thumb.jpg",
 		"title":"thinkcreative",
 		"tasks":["animation"],
 		"description":"this is thinkcreative",
@@ -438,7 +438,7 @@
 	},
 	{
 		"folder":"grenco_gio",
-		"thumbnail":"gio_1.jpg",
+		"thumbnail":"gio_thumb.jpg",
 		"title":"gio",
 		"tasks":["modeling", "rendering", "animation"],
 		"description":"this is gio",
