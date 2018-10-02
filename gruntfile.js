@@ -1,6 +1,7 @@
 module.exports = function(grunt) {
 	require('load-grunt-tasks')(grunt);
 	var config = grunt.file.readYAML('Gruntconfig.yml');
+	const mozjpeg = require('imagemin-mozjpeg');
 
 
 	grunt.initConfig({
@@ -79,7 +80,11 @@ module.exports = function(grunt) {
 		},
 
 		imagemin: {                          // Task
-			dynamic: {                         // Another target
+			dynamic: { 
+				options: {
+					optimizationLevel: 3,
+					use: [mozjpeg()],
+				},                        // Another target
 				files: [{
 					expand: true,                  // Enable dynamic expansion
 					cwd: 'src/images',                   // Src matches are relative to this path
@@ -109,6 +114,10 @@ grunt.loadNpmTasks('grunt-newer');
 
 	grunt.registerTask('image', [
 		'newer:imagemin:dynamic'
+	]);
+
+	grunt.registerTask('image_reg', [
+		'imagemin:dynamic'
 	]);
 
 	grunt.registerTask('json',[
