@@ -82,8 +82,7 @@ module.exports = function(grunt) {
 		imagemin: {                          // Task
 			dynamic: { 
 				options: {
-					optimizationLevel: 3,
-					use: [mozjpeg()],
+					use: [mozjpeg({quality:92})],
 				},                        // Another target
 				files: [{
 					expand: true,                  // Enable dynamic expansion
